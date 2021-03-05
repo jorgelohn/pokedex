@@ -31,8 +31,8 @@ const ContainerType = styled.View`
 const Header = styled.View`
   height: 40px;
   background: ${(props) => props.color};
-  border-top-right-radius: 20;
-  border-top-left-radius: 20;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
   padding: 10px 20px;
 `;
 
@@ -120,7 +120,6 @@ export default function Pokemon({navigation, route}) {
     <SafeAreaView style={styles.container}>
       <Container color={color}>
         <View style={styles.info}>
-
           <Text style={styles.name}>
             {PokemonUtil.capitalizeFirstLetter(name)}
           </Text>
@@ -216,19 +215,19 @@ const styles = {
   title: {
     fontSize: 16,
     fontWeight: 'bold',
-    fontColor: '#000',
+    color: '#000',
     paddingTop: 10,
   },
   label: {
     fontSize: 16,
     fontWeight: '500',
-    fontColor: '#ddd',
+    color: '#ddd',
     width: 120,
   },
   value: {
     fontSize: 16,
     fontWeight: 'bold',
-    fontColor: '#000',
+    color: '#000',
   },
   containerCaracteristica: {
     flexDirection: 'row',

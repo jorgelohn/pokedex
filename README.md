@@ -2,9 +2,7 @@
 
 This project was developed in React Native.
 
-![Home](https://github.com/jorgelohn/pokedex/blob/master/assets/home.png?raw=true)
-![Pokemon Page](https://github.com/jorgelohn/pokedex/blob/master/assets/sample1.png?raw=true)
-![Pokemon Page](https://github.com/jorgelohn/pokedex/blob/master/assets/sample2.png?raw=true)
+![Prints or app](https://github.com/jorgelohn/pokedex/blob/master/assets/print.png?raw=true)
 
 ## Installation
 

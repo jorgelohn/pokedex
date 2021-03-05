@@ -21,12 +21,10 @@ const PokemonUtil = {
     const type = types[0].type.name;
     return colors[type] || '#c5c5c5';
   },
-<<<<<<< HEAD
+
   capitalizeFirstLetter: (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   },
-=======
->>>>>>> 3ab2e4c34306b6c94be27400888d8d3cb395820a
 };
 
 export default PokemonUtil;
